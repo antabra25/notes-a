@@ -12,7 +12,7 @@ const NoteInput = () => {
         <View style={styles.InputContainer}>
             <TextInput
                 style={styles.textInput}
-                placeholder="Agregar nota"
+                placeholder="Agregar nota .."
                 onChangeText={handleNoteChange}
             />
         </View>
@@ -27,13 +27,15 @@ const styles = StyleSheet.create({
         alignItems:"center",
         width: "90%",
         height: 100,
-        backgroundColor: "blue",
+        backgroundColor: "#D6D1CD",
+        borderRadius:8
     },
     textInput: {
         width: "80%",
         height: 40,
-        backgroundColor: "red",
+        backgroundColor: "#E5ECE9",
         borderRadius: 10,
+        padding:10
     }
 })
 
