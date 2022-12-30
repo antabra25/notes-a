@@ -7,6 +7,7 @@ export default function App() {
     <View style={styles.container}>
         <TextField/>
         <Control/>
+        
     </View>
   );
 }
@@ -14,8 +15,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#c60f7b',
+    backgroundColor: '#F9C22E',
     alignItems: 'center',
     justifyContent: 'center',
+    width:"100%"
   },
 });
